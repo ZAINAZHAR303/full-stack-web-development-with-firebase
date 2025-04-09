@@ -1,0 +1,17 @@
+#paragraph {
+    
+    background-color: #bde0fe;
+    color: white;
+
+}
+.parent{
+    background-color: #ffc8dd;
+    width: 50%;
+}
+
+.divpar{
+    text-align: right;
+    text-decoration: underline;
+    /* font-weight: bolder; */
+    font-family: Roboto;
+}
