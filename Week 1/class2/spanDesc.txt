@@ -1,0 +1,33 @@
+Tag	Purpose
+<a>	Creates a hyperlink.
+<abbr>	Marks up abbreviations; shows full form on hover (with title).
+<acronym>	Similar to <abbr>, now obsolete in HTML5.
+<b>	Makes text bold (no extra meaning).
+<bdo>	Bi-Directional Override — controls text direction (LTR or RTL).
+<big>	Makes text slightly larger (deprecated).
+<br>	Line break — forces a new line.
+<button>	Clickable button (submit, reset, etc.).
+<dfn>	Used to mark a definition term.
+<em>	Emphasized text (usually italic).
+<i>	Italic text (used for style, not emphasis).
+<img>	Embeds an image.
+<input>	Form input field (text, checkbox, etc.).
+<kbd>	Represents keyboard input.
+<output>	Shows result of a calculation or script.
+<q>	Inline quote with quotation marks.
+<samp>	Sample output from a program or system.
+<script>	Embeds or links JavaScript code.
+<select>	Drop-down menu in forms.
+<small>	Makes text smaller.
+<span>	Generic inline container (for styling or JS).
+<label>	Labels a form input for accessibility.
+<map>	Defines an image map (clickable areas).
+<object>	Embeds other resources (video, PDF, etc.).
+<tt>	Teletype/monospace text (deprecated).
+<strong>	Strong importance (usually bold).
+<sub>	Subscript text (e.g. H<sub>2</sub>O).
+<sup>	Superscript text (e.g. x<sup>2</sup>).
+<textarea>	Multi-line text input in forms.
+<cite>	Cites a source — typically italicized.
+<var>	Represents a variable (italic by default).
+<time>	Defines a time or date (machine-readable).
