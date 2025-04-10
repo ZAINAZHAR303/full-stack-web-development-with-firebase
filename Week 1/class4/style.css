@@ -1,0 +1,38 @@
+p{
+    /* line-height: normal; */
+
+    text-transform:none;
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+.container{
+    width:200px;
+    height: 200px;
+    padding: 40px;
+    background-color: aqua;
+    /* border-radius: 10px; */
+    /* border-radius: 100%; */
+
+
+}
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+    margin-top: 200px;
+}
+
+.box-model{
+    height: 200px;
+    width :200px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 20px;
+}
+#first-box{
+    padding-top: 20px;
+}
