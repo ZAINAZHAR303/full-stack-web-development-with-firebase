@@ -1,0 +1,19 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.outside-box{
+    height: 60px;
+    background-color: black;
+    border: 5px solid chocolate;
+}
+.inside-items{
+    margin-right: 150px;
+    color: white;
+}
+
+.btn{
+    background-color: yellow;
+}
