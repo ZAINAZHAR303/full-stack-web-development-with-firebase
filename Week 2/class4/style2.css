@@ -1,0 +1,29 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition:  2s ease-in-out 0.1s;
+    
+}
+
+.container:hover{
+    background-color: blue;
+    /* transform: rotate(45deg); */
+    transform: skew(30deg)
+
+}
+p{
+    animation: fontIncreaser 2s ease-in-out 0.1s infinite;
+}
+
+@keyframes fontIncreaser{
+    0%{
+        font-size: 14px;
+    }
+    50%{
+        font-size: 30px;
+    }
+    70%{
+        font-size: 100px;
+    }
+} 

@@ -1,0 +1,48 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+P{
+    font-size: 14px;
+}
+.practice_container{
+    height: 200px;
+    width: 200px;
+
+}
+
+@media (max-width: 300px){
+    .practice_container{
+        background-color: green;
+    }
+}
+@media (min-width: 301px) and (max-width: 400px){
+    .practice_container{
+        background-color: pink;
+    }
+}
+@media (min-width:401px) and (max-width: 600px){
+    .practice_container{
+        background-color: red;
+    }
+}
+@media (min-width: 601px){
+    .practice_container{
+        background-color: blue;
+    }
+}
+
+
+
+@media(min-width:600px){
+    p{
+        font-size: 30px;
+    }
+}
+@media (min-width:600px) and (max-width: 700px){
+    .container{
+        background-color: green;
+    }
+}
