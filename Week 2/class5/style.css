@@ -1,0 +1,112 @@
+*{
+    font-family: Poppins, sans-serif;
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
+
+header{
+    background-color: rgb(28, 27, 27);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    
+}
+nav h2{
+    color: white;
+    font-size: 2rem;;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+
+}
+
+.hero img{
+
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+.hero h1{
+    font-size: 3rem;
+
+}
+.hero p{
+    font-family: 24px;
+    font-weight: 500;
+}
+
+.about{
+    background-color: #f9f9f9;
+    padding: 6rem 1rem;
+}
+.about h1{
+    font-size: 2rem;
+}
+.about img{
+    height: 400px;
+    width: 90%;
+    border-radius: 10px;
+
+    /* object-fit: cover; */
+
+}
+
+.experience{
+    /* padding-top: 3rem; */
+    /* padding-bottom: 3rem; */
+    padding: 6rem 1rem;
+
+}
+
+.experience h1 {
+    font-size: 2rem;
+
+
+}
+
+.experience ul li{
+    font-weight: 500;
+}
+
+.projects .card-container{
+    display: flex;
+}
+
+.cards
+.card-container .cards{
+    width: 300px;
+    max-height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cards img{
+    max-width: 300px;
+    height: 200px;
+
+}
