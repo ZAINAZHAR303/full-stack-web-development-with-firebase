@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(141 153 174) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container{
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 80%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+ul li{
+    background-color: lightpink;
+    list-style: none;
+}
