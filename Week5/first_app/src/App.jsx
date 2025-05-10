@@ -4,6 +4,9 @@ import FirstComponent from './components/FirstCom'
 import PropsReceiver from './components/PropsReceiver'
 import UseStateHook from './components/UseStateHook'
 import Form from './components/Form'
+import FirstCom from './components/FirstCom'
+import ListRendering from './components/ListRendering'
+import UseEffect from './components/UseEffect'
 
 
 function App() {
@@ -11,11 +14,8 @@ function App() {
 
   return (
     <>
-      {/* this is week 5 class 1
-      <FirstComponent/>
-      <PropsReceiver value="zain"/> */}
-      {/* <UseStateHook /> */}
-      <Form />
+    
+      <UseEffect/>
     </>
   )
 }
