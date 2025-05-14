@@ -7,6 +7,7 @@ import Form from './components/Form'
 import FirstCom from './components/FirstCom'
 import ListRendering from './components/ListRendering'
 import UseEffect from './components/UseEffect'
+import SimulatedApi from './components/SimulatedApi'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
     
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <SimulatedApi />
     </>
   )
 }
