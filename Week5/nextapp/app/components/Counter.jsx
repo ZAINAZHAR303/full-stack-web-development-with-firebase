@@ -7,7 +7,7 @@ const Counter = () => {
   return (
     <div>Counter
         <h1>{count}</h1>
-        <button  className='text-while font-bold text-2xl bg-amber-400  '  onClick={() => setCount(count + 1)}>Increment</button>
+        <button  className='text-while font-bold text-2xl bg-amber-400 p-1 '  onClick={() => setCount(count + 1)}>Increment</button>
         
     </div>
   )
